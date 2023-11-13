@@ -1,0 +1,12 @@
+C:\Users\ucenik\source\repos\AppBiblioteka\bin\Debug\AppBiblioteka.exe.config
+C:\Users\ucenik\source\repos\AppBiblioteka\bin\Debug\AppBiblioteka.exe
+C:\Users\ucenik\source\repos\AppBiblioteka\bin\Debug\AppBiblioteka.pdb
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.csproj.AssemblyReference.cache
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.csproj.SuggestedBindingRedirects.cache
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.Form1.resources
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.Forme.Knjige.resources
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.Properties.Resources.resources
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.csproj.GenerateResource.cache
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.csproj.CoreCompileInputs.cache
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.exe
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.pdb
