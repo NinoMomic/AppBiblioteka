@@ -35,5 +35,41 @@ namespace AppBiblioteka
             Evidencija novaForma3 = new Evidencija();
             novaForma3.Show();
         }
+
+        private void btnPopisKnjige_Click(object sender, EventArgs e)
+        {
+            PopisKnjige novaForma4 = new PopisKnjige();
+            novaForma4.Show();
+        }
+
+        private void btnKorisniciPopis_Click(object sender, EventArgs e)
+        {
+            PopisKorisnici novaForma5 = new PopisKorisnici();
+            novaForma5.Show();
+        }
+
+        private void btnPopisEvidencija_Click(object sender, EventArgs e)
+        {
+            PovjestEvidencija novaForma6 = new PovjestEvidencija();
+            novaForma6.Show();
+        }
+
+        private void btnObrisiKnjige_Click(object sender, EventArgs e)
+        {
+            ObrisiKnjige novaForma7 = new ObrisiKnjige();
+            novaForma7.Show();
+        }
+
+        private void btnObrisiKorisnici_Click(object sender, EventArgs e)
+        {
+            ObrisiKorisnici novaForma8 = new ObrisiKorisnici();
+            novaForma8.Show();
+        }
+
+        private void btnObrišiEvidencija_Click(object sender, EventArgs e)
+        {
+            ObrisiEvidencija novaForma9 = new ObrisiEvidencija();
+            novaForma9.Show();
+        }
     }
 }

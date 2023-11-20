@@ -10,3 +10,5 @@ C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.csproj.Genera
 C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.csproj.CoreCompileInputs.cache
 C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.exe
 C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.pdb
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.Forme.Evidencija.resources
+C:\Users\ucenik\source\repos\AppBiblioteka\obj\Debug\AppBiblioteka.Forme.Korisnici.resources

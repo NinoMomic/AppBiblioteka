@@ -65,12 +65,14 @@
             // 
             // btnObrisiKnjige
             // 
+            this.btnObrisiKnjige.BackColor = System.Drawing.Color.Red;
             this.btnObrisiKnjige.Location = new System.Drawing.Point(279, 88);
             this.btnObrisiKnjige.Name = "btnObrisiKnjige";
             this.btnObrisiKnjige.Size = new System.Drawing.Size(126, 34);
             this.btnObrisiKnjige.TabIndex = 2;
             this.btnObrisiKnjige.Text = "Obriši";
-            this.btnObrisiKnjige.UseVisualStyleBackColor = true;
+            this.btnObrisiKnjige.UseVisualStyleBackColor = false;
+            this.btnObrisiKnjige.Click += new System.EventHandler(this.btnObrisiKnjige_Click);
             // 
             // btnPopisKnjige
             // 
@@ -80,15 +82,17 @@
             this.btnPopisKnjige.TabIndex = 1;
             this.btnPopisKnjige.Text = "Popis";
             this.btnPopisKnjige.UseVisualStyleBackColor = true;
+            this.btnPopisKnjige.Click += new System.EventHandler(this.btnPopisKnjige_Click);
             // 
             // btnUnosKnjige
             // 
+            this.btnUnosKnjige.BackColor = System.Drawing.Color.LawnGreen;
             this.btnUnosKnjige.Location = new System.Drawing.Point(6, 88);
             this.btnUnosKnjige.Name = "btnUnosKnjige";
             this.btnUnosKnjige.Size = new System.Drawing.Size(126, 34);
             this.btnUnosKnjige.TabIndex = 0;
             this.btnUnosKnjige.Text = "Unos";
-            this.btnUnosKnjige.UseVisualStyleBackColor = true;
+            this.btnUnosKnjige.UseVisualStyleBackColor = false;
             this.btnUnosKnjige.Click += new System.EventHandler(this.btnUnosKnjige_Click);
             // 
             // groupBox1
@@ -100,7 +104,7 @@
             this.groupBox1.Controls.Add(this.btnUnosKorisnici);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.groupBox1.ForeColor = System.Drawing.Color.Indigo;
-            this.groupBox1.Location = new System.Drawing.Point(128, 183);
+            this.groupBox1.Location = new System.Drawing.Point(128, 174);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(660, 128);
             this.groupBox1.TabIndex = 1;
@@ -115,24 +119,28 @@
             this.btnKorisniciPopis.TabIndex = 5;
             this.btnKorisniciPopis.Text = "Popis";
             this.btnKorisniciPopis.UseVisualStyleBackColor = true;
+            this.btnKorisniciPopis.Click += new System.EventHandler(this.btnKorisniciPopis_Click);
             // 
             // btnObrisiKorisnici
             // 
+            this.btnObrisiKorisnici.BackColor = System.Drawing.Color.Red;
             this.btnObrisiKorisnici.Location = new System.Drawing.Point(280, 89);
             this.btnObrisiKorisnici.Name = "btnObrisiKorisnici";
             this.btnObrisiKorisnici.Size = new System.Drawing.Size(125, 33);
             this.btnObrisiKorisnici.TabIndex = 4;
             this.btnObrisiKorisnici.Text = "Obriši";
-            this.btnObrisiKorisnici.UseVisualStyleBackColor = true;
+            this.btnObrisiKorisnici.UseVisualStyleBackColor = false;
+            this.btnObrisiKorisnici.Click += new System.EventHandler(this.btnObrisiKorisnici_Click);
             // 
             // btnUnosKorisnici
             // 
+            this.btnUnosKorisnici.BackColor = System.Drawing.Color.LawnGreen;
             this.btnUnosKorisnici.Location = new System.Drawing.Point(6, 89);
             this.btnUnosKorisnici.Name = "btnUnosKorisnici";
             this.btnUnosKorisnici.Size = new System.Drawing.Size(126, 33);
             this.btnUnosKorisnici.TabIndex = 3;
             this.btnUnosKorisnici.Text = "Unos";
-            this.btnUnosKorisnici.UseVisualStyleBackColor = true;
+            this.btnUnosKorisnici.UseVisualStyleBackColor = false;
             this.btnUnosKorisnici.Click += new System.EventHandler(this.btnUnosKorisnici_Click);
             // 
             // groupBox2
@@ -153,12 +161,14 @@
             // 
             // btnObrišiEvidencija
             // 
+            this.btnObrišiEvidencija.BackColor = System.Drawing.Color.Red;
             this.btnObrišiEvidencija.Location = new System.Drawing.Point(280, 90);
             this.btnObrišiEvidencija.Name = "btnObrišiEvidencija";
             this.btnObrišiEvidencija.Size = new System.Drawing.Size(125, 33);
             this.btnObrišiEvidencija.TabIndex = 8;
             this.btnObrišiEvidencija.Text = "Obriši";
-            this.btnObrišiEvidencija.UseVisualStyleBackColor = true;
+            this.btnObrišiEvidencija.UseVisualStyleBackColor = false;
+            this.btnObrišiEvidencija.Click += new System.EventHandler(this.btnObrišiEvidencija_Click);
             // 
             // btnPopisEvidencija
             // 
@@ -166,17 +176,19 @@
             this.btnPopisEvidencija.Name = "btnPopisEvidencija";
             this.btnPopisEvidencija.Size = new System.Drawing.Size(125, 33);
             this.btnPopisEvidencija.TabIndex = 7;
-            this.btnPopisEvidencija.Text = "Popis";
+            this.btnPopisEvidencija.Text = "Povjest";
             this.btnPopisEvidencija.UseVisualStyleBackColor = true;
+            this.btnPopisEvidencija.Click += new System.EventHandler(this.btnPopisEvidencija_Click);
             // 
             // btnUnosEvidencija
             // 
+            this.btnUnosEvidencija.BackColor = System.Drawing.Color.LawnGreen;
             this.btnUnosEvidencija.Location = new System.Drawing.Point(7, 89);
             this.btnUnosEvidencija.Name = "btnUnosEvidencija";
             this.btnUnosEvidencija.Size = new System.Drawing.Size(125, 33);
             this.btnUnosEvidencija.TabIndex = 6;
             this.btnUnosEvidencija.Text = "Unos";
-            this.btnUnosEvidencija.UseVisualStyleBackColor = true;
+            this.btnUnosEvidencija.UseVisualStyleBackColor = false;
             this.btnUnosEvidencija.Click += new System.EventHandler(this.btnUnosEvidencija_Click);
             // 
             // Form1

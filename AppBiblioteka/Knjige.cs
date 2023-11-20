@@ -17,4 +17,27 @@ namespace AppBiblioteka.Forme
             InitializeComponent();
         }
     }
+
+    class KlasaKnjige
+    {
+        int IDKnjige, Kolicina;
+        string Autor, Naziv, Izdavac;
+
+        public KlasaKnjige(string Autor, string Naziv, string Izdavac, int IDKnjige, int Kolicina)
+        {
+            this.IDKnjige = IDKnjige;
+            this.Kolicina = Kolicina;
+            this.Autor = Autor;
+            this.Naziv = Naziv;
+            this.Izdavac = Izdavac;
+        }
+
+        public int idKnijge { get => IDKnjige ; set => IDKnjige = value; }
+        public int kolicina { get => Kolicina; set => Kolicina = value; }
+        public string autor { get => Autor; set => Autor = value; }
+        public string naziv { get => Naziv; set => Naziv = value; }
+        public string izdavac { get => Izdavac; set => Izdavac = value; }
+
+
+    }
 }

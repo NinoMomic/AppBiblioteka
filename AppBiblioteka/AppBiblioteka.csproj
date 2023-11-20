@@ -70,13 +70,55 @@
     <Compile Include="Korisnici.Designer.cs">
       <DependentUpon>Korisnici.cs</DependentUpon>
     </Compile>
+    <Compile Include="ObrisiEvidencija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObrisiEvidencija.Designer.cs">
+      <DependentUpon>ObrisiEvidencija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObrisiKnjige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObrisiKnjige.Designer.cs">
+      <DependentUpon>ObrisiKnjige.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObrisiKorisnici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObrisiKorisnici.Designer.cs">
+      <DependentUpon>ObrisiKorisnici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopisKnjige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopisKnjige.Designer.cs">
+      <DependentUpon>PopisKnjige.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopisKorisnici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopisKorisnici.Designer.cs">
+      <DependentUpon>PopisKorisnici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PovjestEvidencija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PovjestEvidencija.Designer.cs">
+      <DependentUpon>PovjestEvidencija.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Evidencija.resx">
+      <DependentUpon>Evidencija.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Knjige.resx">
       <DependentUpon>Knjige.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Korisnici.resx">
+      <DependentUpon>Korisnici.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
