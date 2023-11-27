@@ -167,6 +167,7 @@
             this.btnUnesiKnjigu.TabIndex = 10;
             this.btnUnesiKnjigu.Text = "Unesi";
             this.btnUnesiKnjigu.UseVisualStyleBackColor = false;
+            this.btnUnesiKnjigu.Click += new System.EventHandler(this.btnUnesiKnjigu_Click);
             // 
             // Knjige
             // 
